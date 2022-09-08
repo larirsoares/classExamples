@@ -3,7 +3,6 @@ package exemplodao;
 public class DaoPatternDemo {
 	   public static void main(String[] args) {
 	     
-		  int test;  
 		   
 		  StudentDao studentDao = new StudentDaoImpl();
 
