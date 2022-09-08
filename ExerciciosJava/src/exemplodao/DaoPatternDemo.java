@@ -2,11 +2,13 @@ package exemplodao;
 
 public class DaoPatternDemo {
 	   public static void main(String[] args) {
-	      StudentDao studentDao = new StudentDaoImpl();
+	     
+		  int test;  
+		   
+		  StudentDao studentDao = new StudentDaoImpl();
 
 	      
-	      
-	      //print all studentsds
+	      //print all students
 	      for (Student student : studentDao.getAllStudents()) {
 	         System.out.println("Student: [RollNo : " + student.getRollNo() + ", Name : " + student.getName() + " ]");
 	      }
