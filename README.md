@@ -8,3 +8,4 @@ Contém exemplos simples do uso de:
   - MVC
   - Generics
   - Exception
+  - Factory Method
